@@ -1,0 +1,32 @@
+{
+    "name": "yandex_test",
+    "version": "1.0.0",
+    "description": "e2e test",
+    "main": "protractor.conf.js",
+    "scripts": {
+        "build": "babel src -d dist --presets es2015",
+        "start": "webdriver-manager start",
+        "update": "webdriver-manager update",
+        "test": "protractor protractor.conf.js"
+    },
+    "author": "Samotaev Pavel",
+    "license": "ISC",
+    "dependencies": {
+        "angular": "^1.7.7",
+        "webpack": "^4.31.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "@babel/preset-react": "^7.0.0",
+        "@types/jasmine": "^3.3.7",
+        "@types/node": "^10.12.18",
+        "babel-cli": "^6.26.0",
+        "babel-code-frame": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-import": "^1.11.2",
+        "babel-preset-es2015": "^6.24.1",
+        "jasmine": "^3.3.1",
+        "protractor": "^5.4.2"
+    }
+}
